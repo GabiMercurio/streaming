@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+.header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+ 
+.header-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+ 
+.header-icons i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+ 
+.hero {
+    position: relative;
+    height: 400px;
+    background-color: #000;
+}
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+ 
+.hero-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 2;
+}
+ 
+.hero-title {
+    font-size: 48px;
+    margin: 0;
+}
+ 
+.hero-year {
+    font-size: 20px;
+    margin: 10px 0;
+}
+ 
+.play-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.rating {
+    font-size: 20px;
+    margin-top: 10px;
+}
+ 
+.continue-watching, .sitcoms {
+    padding: 20px;
+}
+ 
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+ 
+.movies-list {
+    display: flex;
+    overflow-x: auto;
+}
+ 
+.movie {
+    margin-right: 15px;
+    position: relative;
+}
+ 
+.movie img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 5px;
+    background-color: #e50914;
+}
+.progress-bar25 {
+    width: 25%;
+}
+.progress-bar50 {
+    width: 50%;
+}
+.progress-bar90 {
+    width: 90%;
+}
