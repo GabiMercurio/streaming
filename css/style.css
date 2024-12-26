@@ -42,13 +42,16 @@ body{
     height: 400px;
     background-color: #000;
 }
+
 .hero-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center top; /* Ajuste a posição da imagem */
     position: relative;
     z-index: 1;
 }
+
  
 .hero-content {
     position: absolute;
